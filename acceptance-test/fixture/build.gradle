@@ -1,0 +1,7 @@
+plugins {
+    id 'fr.coppernic.fdroid'
+}
+
+task test << {
+    assert project.plugins.hasPlugin('fr.coppernic.fdroid')
+}
